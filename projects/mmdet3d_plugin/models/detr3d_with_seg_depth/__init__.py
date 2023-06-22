@@ -1,0 +1,2 @@
+from .detr3d_head_seg_depth import Detr3DHead_Seg_Depth
+from .detr3d_seg_depth import Detr3D_Seg_Depth
