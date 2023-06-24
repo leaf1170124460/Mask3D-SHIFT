@@ -1,4 +1,3 @@
-mmdetection3d
 work_dirs
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -156,3 +155,5 @@ checkpoint/
 input/
 output/
 output
+annotations/
+annotations

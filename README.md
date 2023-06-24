@@ -3,6 +3,7 @@
 This repository provides a multi task benchmark for instance segmentation, depth estimation, and 3D object detection. This repository also serves as a baseline method for the Multitask Robustness Challenge at the [VCL Workshop](https://wvcl.vis.xyz/challenges).
 
 ## Environment setup
+We trained and tested our model under `Ubuntu 20.04` and `CUDA 11.3`.
 
 Please make sure that conda or miniconda is installed on your machine before running the following command:
 
@@ -27,6 +28,14 @@ Please make sure that conda or miniconda is installed on your machine before run
     pip install setuptools==59.5.0
     pip install tqdm
     pip install scalabel==0.3.0
+    pip uninstall numpy -y
+    pip install numpy==1.23.5
+    ```
+
+- Clone submodule:
+    ```shell
+    cd Mask3D-SHIFT
+    git submodule update --init --recursive
     ```
 
 Note: If there are other missing packages, please add them according to the error message.
