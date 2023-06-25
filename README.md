@@ -22,7 +22,7 @@ Please make sure that conda or miniconda is installed on your machine before run
 
 - Install other dependencies:
     ```
-    conda install protobuf
+    pip install protobuf==3.8.0
     pip install h5py==3.1.0
     pip uninstall setuptools -y
     pip install setuptools==59.5.0
