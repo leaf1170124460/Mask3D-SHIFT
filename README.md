@@ -95,7 +95,7 @@ You are able to download the pretrained models and run the testing scripts direc
 
 ## Evaluation
 
-- Download the minival annotation [SHIFT_challenge2023_multitask.zip](https://github.com/suniique/SHIFT-3D-challenge/blob/challenge/annotations/SHIFT_challenge2023_multitask.zip).
+- Download the minival annotation [SHIFT_challenge2023_multitask.zip](https://drive.google.com/file/d/1lHLJmFO5xcV4wFq6rRgOKLWKDJei_hv4/view?usp=sharing).
 
 - Run evaluation codes:
 
